@@ -1,0 +1,46 @@
+/* Top Nav */
+#leftNav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#rightNav {
+    float: right;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.dot {
+    height: 30px;
+    width: 30px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+/* Search Bar */
+div.searchDiv {
+    background-color: black;
+    margin: 0 auto;
+    width: 45%;
+}
+#topSearch {
+    display: inline;
+    width: 90%;
+    height: 25px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+#searchButton {
+    float: right;
+    width: 10%;
+    height: 25px;
+    border-radius: 0%;
+}
+
+/* Main Video Section */
+#videoPlayer {
+    display: block;
+}
+
+/* Footer (Comments) */
