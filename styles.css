@@ -23,20 +23,30 @@ div.searchDiv {
     width: 45%;
 }
 #topSearch {
-    /*display: inline;*/
+    display: inline;
     width: 85%;
     height: 25px;
     font-size: 18px;
     font-family: Arial, sans-serif;
 }
-
 #searchButton {
     float: right;
     width: 10%;
-    height: 25px;
+    height: 30px;
     border-radius: 0%;
 }
-
+/* Sidebar */
+aside.thumbnails {
+    float: right;
+    padding-bottom: 50%;
+    width: 30%;
+}
+.thumbText {
+    line-height: 15px;
+}
+.thumbImage {
+    float: left;
+}
 /* Main Video Section */
 #videoPlayer {
     display: block;
